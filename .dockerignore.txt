@@ -1,0 +1,17 @@
+# Ignore Python virtual environments
+venv/
+__pycache__/
+
+# Ignore local configuration files
+*.env
+*.local
+
+# Ignore build artifacts
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Ignore version control directories
+.git/
+.gitignore
