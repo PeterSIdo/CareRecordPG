@@ -1,3 +1,4 @@
+myenv/
 # Ignore all .txt files
 *.txt
 # But do not ignore these specific files
