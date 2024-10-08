@@ -3,8 +3,8 @@ from flask import render_template, request, redirect, url_for, flash, session
 from app.admin import bp  # Ensure this import is correct
 import sqlite3
 from datetime import datetime
-from auxiliary_py.login_check import login_required
-from auxiliary_py.utils import generate_unique_id  # Import the function from utils.py
+from app.login_check import login_required
+from app.utils import generate_unique_id  # Import the function from utils.py
 
 @bp.route('/admin_dashboard')
 @login_required(user_mode='a')
