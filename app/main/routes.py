@@ -2,7 +2,7 @@ from flask import render_template, session, redirect, url_for, flash, request
 from app.main import bp
 from app.login.forms import LoginForm  # Import the LoginForm
 import sqlite3
-from auxiliary_py.login_check import login_required
+from app.login_check import login_required
 
 @bp.route('/about_care_home')
 def about_care_home():
